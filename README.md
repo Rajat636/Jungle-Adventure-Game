@@ -1,8 +1,6 @@
 # Jungle-Adventure-Game
 Jungle Adventure Game
 Welcome to the Jungle Adventure Game! This game is an exciting HTML, CSS, and JS creation where players embark on a thrilling adventure in the heart of the jungle. Your mission? To navigate through the dense foliage and evade the menacing flying dragons lurking in the skies.
-![Uploading image.png…]()
-
 
 Gameplay
 As you venture deeper into the jungle, the challenge intensifies. Utilize your skills and quick reflexes to keep our hero alive. Control our brave protagonist using the arrow keys:
