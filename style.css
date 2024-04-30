@@ -1,0 +1,197 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: red;
+    overflow:hidden;
+}
+
+.gameContainer{
+    background-image: url(jungle\ Background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    width: 100%;
+    height: 100vh;
+}
+
+.dino{
+    background-image: url(/hero.jpg);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 55vh;
+    left: 100px;
+    background-size: cover;
+}
+
+.obstacle{
+    background-image: url(Dragon.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 240px;   /* ye value 45px se 225 px ki he*/
+    left: 75vw;
+    background-size: cover;
+}
+
+/* CHANGE obstacle class ye duplcate banaya he */
+.obstacle2{
+    background-image: url(Dragon.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 45px;
+    left: 75vw;
+    background-size: cover;
+}
+
+.obstacle3{
+    background-image: url(/Dragon.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 440px;
+    left: 75vw;
+    background-size: cover;
+}
+
+.obstacle4{
+    background-image: url(/Dragon.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 610px;
+    left: 75vw;
+    background-size: cover;
+}
+
+.obstacle5{
+    background-image: url(/Dragon.png);
+    background-repeat: no-repeat;
+    width: 180px;
+    height: 114px;
+    position: absolute;
+    bottom: 780px;
+    left: 75vw;
+    background-size: cover;
+}
+
+.gameOver{
+    visibility: hidden;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: 40px; /* Adjust the font size as needed */
+    color:darkred;
+    background-color: #ffffff; /* Set the background color */
+    font-weight:bolder;
+    padding: 10px; /* Adjust padding as needed */
+    border: 5px solid; /* Set border properties if desired */
+}
+
+#finalScore{
+    /* visibility: hidden; */
+    position: fixed;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    background-color: aliceblue;
+    font-size: 40px; /* Adjust the font size as needed */
+    color:darkred;
+    font-weight:bolder;
+    width: 300px;
+    padding: 10px; /* Adjust padding as needed */
+    margin-top: 80px;
+    border: 4px solid;
+}
+
+.animateDino{
+    animation: dino 0.7s linear;
+}
+
+.obstacleAni{
+    animation: obstacleAni 3s linear infinite;  
+}
+
+ .obstacleAni2{
+    animation: obstacleAni2 4s linear infinite;  
+}
+
+.obstacleAni3{
+    animation: obstacleAni3 2s linear infinite;
+}
+
+.obstacleAni4{
+    animation: obstacleAni4 4s linear infinite;
+} 
+
+.obstacleAni5{
+    animation: obstacleAni4 2s linear infinite;
+} 
+
+@keyframes dino{
+    0%{
+        bottom: 65px;
+    }
+    50%{
+        bottom:45vh;
+    }
+    100%{
+        bottom: 65px;
+    }
+}
+
+@keyframes obstacleAni{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
+
+@keyframes obstacleAni2{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
+
+@keyframes obstacleAni3{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
+
+@keyframes obstacleAni4{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
+
+@keyframes obstacleAni5{
+    0%{
+        left: 100vw;
+    }
+    100%{
+        left: -10vw;
+    }
+}
